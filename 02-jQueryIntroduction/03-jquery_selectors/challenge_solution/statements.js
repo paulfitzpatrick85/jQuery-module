@@ -29,3 +29,9 @@ $("img:last");
 
 // Get all elements that have an attribute of `href`
 $("[href]")
+
+//get direct child element of parent
+$("p>a");
+
+//get all all descendants of parent element
+$(" p a");
