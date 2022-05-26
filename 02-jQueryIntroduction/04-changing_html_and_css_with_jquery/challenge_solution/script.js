@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+     $("#stream1_btn").on("click", function() {
+          $(".stream1").fadeTo(1000, 0.5);
+          $(".stream2").hide();
+          // $(".stream3").toggle("medium");
+          // $(".stream1").toggle("fast");
+     });
+
+
     $("#stream1_btn").on("click", function() {
         $(".stream1").removeClass('highlight_stream');
         $(".stream2").removeClass('highlight_stream');
