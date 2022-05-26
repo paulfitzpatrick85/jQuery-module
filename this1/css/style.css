@@ -70,7 +70,7 @@ div{
 	max-width: 240px;
 	margin: 10px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: #000;
 }
 
 #my_footer{
@@ -146,3 +146,4 @@ li{
 		font-size: 2em;
 	}
 }
+
