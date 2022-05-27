@@ -49,7 +49,7 @@ div{
 	flex: 1 0 auto;
 }
 
-#container{
+.container {
 	display: flex;   /*make flex box*/
 	flex-flow: row wrap;
 	box-sizing: border-box;
@@ -63,7 +63,7 @@ div{
 	margin: auto;
 }
 
-.card{
+.box {
 	flex: 1; /*makes content controllable with flexbox*/
 	display: flex;
 	flex-flow: column;  /*two side by side columns*/
